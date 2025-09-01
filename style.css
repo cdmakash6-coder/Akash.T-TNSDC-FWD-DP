@@ -1,0 +1,121 @@
+/* ===== Reset some defaults ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ===== Header / Navigation ===== */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  display: inline-block;
+}
+
+header nav {
+  float: right;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #ff9800;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* ===== Hero Section ===== */
+section:first-of-type {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+section:first-of-type a {
+  background: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section:first-of-type a:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
+/* ===== Projects Section ===== */
+#projects h3 {
+  text-align: left;
+  margin-top: 20px;
+  color: #444;
+}
+
+#projects p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  header nav {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  header ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
